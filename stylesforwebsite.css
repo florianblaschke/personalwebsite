@@ -39,7 +39,14 @@ div {
   padding: 20px;
   justify-content: space-between;
   align-items: baseline;
+  max-width: 703px;
+  /* position: relative; */
 }
+
+/* .navbar h1, .navbar a {
+  position: fixed;
+  position: ;
+} */
 
 .overview {
   display: flex;
@@ -48,10 +55,10 @@ div {
 
 figure {
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
   max-width: 300px;
   margin: auto;
-  
+  position: relative;
 }
 
 .profilepic {
@@ -64,6 +71,8 @@ figure {
 figcaption {
   color: white;
   position: absolute;
+  top: 10px;
+  left: 17px;
   font-size: small;
   margin-left: 15px;
 }
@@ -71,6 +80,7 @@ figcaption {
 .hobbies {
   display: flex;
   flex-direction: column;
+  min-width: 703px;
 }
 
 .mobile {
@@ -81,5 +91,18 @@ figcaption {
   font-size: larger;
   letter-spacing: 1px;
   background-color: rgb(107, 190, 253);
+  border-radius: 10px;
+  max-width: 703px;
+  min-width: 703px;
+}
+
+div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 703px;
+}
+.mini {
+  max-width: 200px;
   border-radius: 10px;
 }
