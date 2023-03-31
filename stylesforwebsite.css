@@ -8,9 +8,26 @@ body {
   background-color: rgba(255, 255, 255, 0.937);
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+}
 section {
   padding: 10px;
 }
+
+article {
+  padding: 20px;
+}
+
+div {
+  margin: none;
+  padding: none;
+}
+
 .contact, .bio {
   font-weight: bold;
   color: black;
@@ -34,13 +51,14 @@ figure {
   flex-flow: column;
   max-width: 300px;
   margin: auto;
-  padding: 20px;
+  
 }
 
 .profilepic {
   max-width: 300px;
   position: relative;
   border-radius: 10px;
+  align-self: flex-start;
 }
 
 figcaption {
@@ -53,7 +71,6 @@ figcaption {
 .hobbies {
   display: flex;
   flex-direction: column;
-  text-align: left;
 }
 
 .mobile {
